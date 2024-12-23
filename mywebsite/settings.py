@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'course.apps.CourseConfig',
+    'active_link',
 ]
 
 MIDDLEWARE = [
