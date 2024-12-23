@@ -17,8 +17,8 @@ class Setting(models.Model):
     instagram = models.URLField(blank=True, max_length=50)
     facebook = models.URLField(blank=True, max_length=50)
     icon = models.ImageField(blank=True, upload_to='images/')
-    aboutus = models.CharField(max_length=300)
-    contact = models.CharField(max_length=300)
+    aboutus = models.TextField(max_length=500)
+    contact = models.TextField(max_length=500)
 
     def __str__(self):
         return self.title
